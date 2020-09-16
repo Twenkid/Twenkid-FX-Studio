@@ -151,8 +151,9 @@ def FixLidl(path=None, pathOut=None): #Esc-9, #28-11-2019_A
          if (x11!=None):
            x1 = x11; y1 = y11; x2=x1+w11; y2=y1+h11; bProcess=True
          else: bProcess = False
-       
-       br = 0
+      
+       #br = 0
+       #LOCALIZE Top-left ROI
        y = y1; xs = x1; q = False #break the top cycle  
        for y in range(y1,y1+200,10):
          #for x in range(x1, x2):
@@ -165,12 +166,12 @@ def FixLidl(path=None, pathOut=None): #Esc-9, #28-11-2019_A
             #xs = max(xs, x); q = True; break
             xs = min(xs, x); q = True; break
        
-       x1 = xs - 1  #shifting approximately 1 px left per frame (estimated experimentally)
+       x1 = xs - 1  
        x1_left.append(x1)
-       
-       if (cur==88): x1 = x1_left[87]
-       elif (cur==85): x1 = x1_left[84]   
-       elif (cur==81): x1 = x1_left[80]
+               
+       #if (cur==88): x1 = x1_left[87]
+       #elif (cur==85): x1 = x1_left[84]   
+       #elif (cur==81): x1 = x1_left[80]
        
        #if bRect: cv2.rectangle(frame,(x1,y1),(x2, y2),color,1)  #Debug
        if (bProcess):
