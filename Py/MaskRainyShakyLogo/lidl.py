@@ -70,6 +70,8 @@ def FixLidl(path=None, pathOut=None): #Esc-9, #28-11-2019_A
    #553, 317, 93, 46     
    frSt = 0; frEnd = 4405 #13955 //Frame Range
    x1,y1 = (590,619)  #Approximate Region of Interest (ROI) box, top-left
+   w11x = 10
+   #maxx1 = x1+w11x
    w,h = 330, 256 #270 #317 #Width, Height
    x2, y2 = (x1+w,y1+h) #Bottom-right
     
@@ -85,7 +87,9 @@ def FixLidl(path=None, pathOut=None): #Esc-9, #28-11-2019_A
    
    #If no Explicit path was give, use the default
    if (path==None):
-     path = r"E:\dujd_lidl_244MTS_18-84.mp4"
+     path = r"E:\dujd_lidl_244MTS_18-84.mp4" 
+     path = r"e:\00244_lidl_rain_14.0_R25.mp4"
+     #path = r"E:\lidl\00244_lidl_rain_14.0_r50qscale_2.avi_537462455.avi"
      #path = r"P:\Arnaud\1309\00182.MTS_8201.avi" 
    #path = r"P:\Video\Star_Symphony_57_27_14-10-2018_xvidc1_-1673203093.avi"  
    print(path)   
@@ -149,14 +153,17 @@ def FixLidl(path=None, pathOut=None): #Esc-9, #28-11-2019_A
          else: bProcess = False
        
        br = 0
-       y = y1; xs = x1       
-       for y in range(y1,y1+140,10):
-         for x in range(x1, x2):
+       y = y1; xs = x1; q = False #break the top cycle  
+       for y in range(y1,y1+200,10):
+         #for x in range(x1, x2):
+         if q: break
+         for x in range(x1,x1+w11x):
           p = frame[y,x]
           r = p[2]  #BGR --> red channel
           if (r<150):
             #xs+= x; br+=1; break
-            xs = max(xs, x); break  #saturate the value, less reddish
+            #xs = max(xs, x); q = True; break
+            xs = min(xs, x); q = True; break
        
        x1 = xs - 1  #shifting approximately 1 px left per frame (estimated experimentally)
        x1_left.append(x1)
