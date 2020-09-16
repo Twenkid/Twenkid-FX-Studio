@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import cv2
 import os
 import sys
@@ -68,7 +69,7 @@ def FixLidl(path=None, pathOut=None): #Esc-9, #28-11-2019_A
    #13840, 13955
    #553, 317, 93, 46     
    frSt = 0; frEnd = 4405 #13955 //Frame Range
-   x1,y1 = (590,619)  #Approximate Region of Interest. Top-left
+   x1,y1 = (590,619)  #Approximate Region of Interest (ROI) box, top-left
    w,h = 330, 256 #270 #317 #Width, Height
    x2, y2 = (x1+w,y1+h) #Bottom-right
     
@@ -91,10 +92,10 @@ def FixLidl(path=None, pathOut=None): #Esc-9, #28-11-2019_A
    cap = cv2.VideoCapture(path)   
    cap.set(cv2.CAP_PROP_POS_FRAMES, frSt)
    cur = frSt
-   color = (0,255,0)
+   color = (0,255,0) #of the ROI box
    #13911   
-   if (pathOut==None) videoOutPath = "fixed_logo" #curr.dir #E:\\lidl.mp4
-   else videoOutPath = pathOut
+   if (pathOut==None): videoOutPath = "fixed_logo" #curr.dir #E:\\lidl.mp4
+   else: videoOutPath = pathOut
    
    size = (1920,1080)
    fourcc = cv2.VideoWriter_fourcc(*'FFV1');
@@ -131,8 +132,7 @@ def FixLidl(path=None, pathOut=None): #Esc-9, #28-11-2019_A
    while (cur<frEnd):
      #y1 = int(fy1)
      
-     x1 = x10; y1 = y10; #scan from the initial beginning - drift
-      
+     x1 = x10; y1 = y10; #scan from the initial beginning - drift      
      ret, frame = cap.read();          
      changed = []
      if not ret:
@@ -153,12 +153,12 @@ def FixLidl(path=None, pathOut=None): #Esc-9, #28-11-2019_A
        for y in range(y1,y1+140,10):
          for x in range(x1, x2):
           p = frame[y,x]
-          r = p[2]  #bgr --> green channel
+          r = p[2]  #BGR --> red channel
           if (r<150):
             #xs+= x; br+=1; break
-            xs = max(xs, x); break  #saturate the value, less greeny
+            xs = max(xs, x); break  #saturate the value, less reddish
        
-       x1 = xs - 1  #approximately 1 px left per frame (estimated experimentally)
+       x1 = xs - 1  #shifting approximately 1 px left per frame (estimated experimentally)
        x1_left.append(x1)
        
        if (cur==88): x1 = x1_left[87]
@@ -230,4 +230,4 @@ def FixLidl(path=None, pathOut=None): #Esc-9, #28-11-2019_A
      counter+=1
      print(str(cur)+", ")# end="")  
     
-FixLidl()    
+if __name__ == "__main__": FixLidl()
