@@ -4,7 +4,7 @@
 # Base code by Fraser Langton - Thanks!
 # Refactored and debugged by Todor "Twenkid" Arnaudov: https://stackoverflow.com/users/6249888/twenkid
 # Version: 23.12.2020 (Experimental code - some experiments left for educational purpose)
-# https://github.com/Twenkid/Twenkid-FX-Studio/new/master/Py/y4.py
+# https://github.com/Twenkid/Twenkid-FX-Studio/blob/master/Py/YoutubeAggregatorPafy/y4.py
 
 import multiprocessing #Process, Lock
 from multiprocessing import Lock # Not needed
