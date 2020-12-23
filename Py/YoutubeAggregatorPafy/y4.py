@@ -1,6 +1,7 @@
 # Aggregating/Youtube Streams in a montage with Pafy, Opencv and Multithreading
 # Solution for a question by https://stackoverflow.com/users/10501459/fraser-langton
-#https://stackoverflow.com/questions/65417658/use-multiprocessing-to-read-multiple-video-streams/65418212#65418212 
+# https://stackoverflow.com/questions/65417658/use-multiprocessing-to-read-multiple-video-streams
+# https://stackoverflow.com/questions/65417658/use-multiprocessing-to-read-multiple-video-streams/65418212#65418212 
 # Base code by Fraser Langton - Thanks!
 # Refactored and debugged by Todor "Twenkid" Arnaudov: https://stackoverflow.com/users/6249888/twenkid
 # Version: 23.12.2020 (Experimental code - some experiments left for educational purpose)
