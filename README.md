@@ -2,6 +2,8 @@
 
 Video Editing and Visual Effects 
 
+by Todor Arnaudov - Tosh/Twenkid
+
 2010-...
 
 Unfortunately heavily underdeveloped and carrying some wrong design decisions since the beginning, abandoned many times for years.
@@ -17,7 +19,7 @@ However it may revive.
 * One advantage of the editor is that it is extremely light on memory and works on 32-bit Windows 7 etc. (not tested on earlier versions)
 * For saving on GUI coding, it didn't have the usual time-line view. Instead it had two tracks, one Main, where the videos are concatenated, and a Pool where the clips could be put anywhere and overlap. Blank clips can be added in the main track. Trimming of the clips is very fast on a slider when a video is selected, keys can be used also (, . for left-right side)
 * There are some commands which can be entered in the editor as command line to turn on/off flags etc.
-* In general the system needs huge refactoring
+* In general the system needs huge refactoring, I consider either SDL, OpenCV, FFMPEG, or a combination, also Python, PyAV, Pyglet/Pygame etc. with tk as GUI: I don't know.
 
 
 
@@ -32,3 +34,10 @@ http://twenkid.blogspot.com/2018/11/star-symphony-in-chepelare-poetic-video.html
 ...
 
 ![image](/Cpp/image/starsymphony.png)
+
+![изображение](https://user-images.githubusercontent.com/23367640/132602856-bac97bf1-1b15-42ab-8671-c125bb574c7c.png)
+
+![изображение](https://user-images.githubusercontent.com/23367640/132602940-9f6c4d43-01e8-4363-9295-f3ecbb7c3b1d.png)
+
+![изображение](https://user-images.githubusercontent.com/23367640/132603130-1a89bcb4-1b8c-48d0-8eef-8ac45ee98f96.png)
+
