@@ -1,0 +1,16 @@
+Version	1
+H:\VirtualDub\VirtualDub.exe
+F:\Video\
+F:\Video\
+png
+1600 1100
+800 450
+800 450
+1
+0
+E:\
+F:\Wintest\shaders\shader2.fx
+F:\Wintest\shaders\shader2.fx
+C:\Guz\ffmpeg\bin\ffmpeg.exe
+C:\Guz\ffmpeg\bin\ffplay.exe
+#
