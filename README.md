@@ -1,6 +1,6 @@
 # Twenkid-FX-Studio
 
-![image](/Releases/TwenkidFX-Alpha-10-2021-Win32/TwenkidFX.ico)
+![image](/Releases/TwenkidFX-Alpha-10-2021-Win32/fx.png)
 
 Video Editing and Visual Effects 
 
