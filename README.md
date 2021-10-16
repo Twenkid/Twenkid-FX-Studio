@@ -1,5 +1,7 @@
 # Twenkid-FX-Studio
 
+![image](/Releases/TwenkidFX-Alpha-10-2021-Win32/TwenkidFX.ico)
+
 Video Editing and Visual Effects 
 
 by Todor Arnaudov - Tosh/Twenkid
