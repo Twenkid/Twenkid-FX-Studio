@@ -7,7 +7,7 @@ by Todor Arnaudov - Tosh/Twenkid
 2010-...
 
 Unfortunately heavily underdeveloped and carrying some wrong design decisions since the beginning, abandoned many times for years.
-However it may revive.
+However it may revive. The first alpha release had to be in 2010, in 2011 there were shader effects and "color grading" with possible animations.
 
 * GUI: pure Win32 with some custom light wrapper; "ugly" for general users
 * Direct3D9 for rendering, experiments with OpenGL eventually for effects
@@ -31,6 +31,12 @@ http://twenkid.blogspot.com/2018/11/star-symphony-in-chepelare-poetic-video.html
 * The music video for the song "On the Cherry Tree" (На черешата) by "Cherry Jam", 2017
 * The punk rock musical "Give it to me, or Love's no friend of mine", starring Todor and Anya, 2011 (introduction of static and animated color grading)
 * The documentary "Аngel versus Terminator", 2011
+
+
+## Media demos
+
+* TwenkidFX-Studio-16-10-2010-Split-Screen-Title.mp4
+* ...
 
 ...
 
