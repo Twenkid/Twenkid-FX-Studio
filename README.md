@@ -20,7 +20,7 @@ However it may revive.
 * For saving on GUI coding, it didn't have the usual time-line view. Instead it had two tracks, one Main, where the videos are concatenated, and a Pool where the clips could be put anywhere and overlap. Blank clips can be added in the main track. Trimming of the clips is very fast on a slider when a video is selected, keys can be used also (, . for left-right side)
 * There are some commands which can be entered in the editor as command line to turn on/off flags etc.
 * In general the system needs huge refactoring, I consider either SDL, OpenCV, FFMPEG, or a combination, also Python, PyAV, Pyglet/Pygame etc. with tk as GUI: I don't know.
-
+* Additional Python program for preview and cut of parts of clip (no sound) and for all visual effects in "Star Symphony in Chepelare"
 
 
 ## Select videos produced with Twenkid FX Studio:
