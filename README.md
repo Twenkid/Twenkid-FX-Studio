@@ -2,9 +2,11 @@
 
 ![image](/Releases/TwenkidFX-Alpha-10-2021-Win32/fx.png)
 
-Video Editing and Visual Effects 
+## Video Editing and Visual Effects 
 
-by Todor Arnaudov - Tosh/Twenkid
+&copy; Todor Arnaudov - Tosh/Twenkid
+
+## Freeware Version
 
 2010-...
 
