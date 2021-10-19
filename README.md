@@ -13,6 +13,8 @@
 Unfortunately heavily underdeveloped and carrying some wrong design decisions since the beginning, abandoned many times for years.
 However it may revive. The first alpha release had to be in 2010, in 2011 there were shader effects and "color grading" with possible animations.
 
+http://twenkid.com/fx  (currently redirects here)
+
 * GUI: pure Win32 with some custom light wrapper; "ugly" for general users
 * Direct3D9 for rendering, experiments with OpenGL eventually for effects
 * VFW (Video for Windows) for video sampling, opens only AVI files (require encoding .MTS, .mp4)
