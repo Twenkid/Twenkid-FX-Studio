@@ -8,6 +8,16 @@
 
 ## Freeware Version
 
+First Release! ... 29.12.2021
+
+## Twenkid FX Studio Alpha 0.1
+* Binaries (portable): 300 KB
+http://twenkid.com/fx/TwenkidFXStudioAlpha-12-2021.zip
+* Manual: 2 MB
+https://twenkid.com/fx/TwFXStudio-24-12-2021.pdf
+
+**System requirements:** Windows 7 x86, possibly Windows XP, but not tested, also Linux/Wine with proper codecs.
+
 2010-...
 
 Unfortunately heavily underdeveloped and carrying some wrong design decisions since the beginning, abandoned many times for years.
