@@ -22,6 +22,12 @@ https://twenkid.com/fx/TwFXStudio-24-12-2021.pdf
 
 **System requirements:** Windows 7 x86, possibly Windows XP, but not tested, also Linux/Wine with proper codecs.
 
+Mixing with an external audio track, prepared separately (the output file could be also .avi etc.) for publishing on youtube etc.:
+
+```
+ffmpeg -i "C:\video.avi" -i C:\audio.mp3 -c:v copy -c:a copy -map 0:v:0 -map 1:a:0 C:\video_with_audio.mp4
+```
+
 2010-...
 
 Unfortunately heavily underdeveloped and carrying some wrong design decisions since the beginning, abandoned many times for years.
