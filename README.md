@@ -12,7 +12,9 @@ First Release! ... 29.12.2021
 
 ## Twenkid FX Studio Alpha 0.1
 * **Binaries (portable): 300 KB**: 
+ 
 http://twenkid.com/fx/TwenkidFXStudioAlpha-12-2021.zip
+
 https://twenkid.com/fx/get.html
 
 * **Manual:** 2 MB: 
