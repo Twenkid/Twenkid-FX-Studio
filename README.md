@@ -28,6 +28,16 @@ Mixing with an external audio track, prepared separately (the output file could 
 ffmpeg -i "C:\video.avi" -i C:\audio.mp3 -c:v copy -c:a copy -map 0:v:0 -map 1:a:0 C:\video_with_audio.mp4
 ```
 
+* **Tutorials** (Български звук, Bulgarian Audio)
+ 
+Youtube channel "Twenkid Studio - todporog"
+
+Видеообработка Twenkid FX Studio ... Урок 1 - Рязане, Запис/Експорт, ...
+
+Видео монтаж ... Картина в картината, Crop, Twenkid FX Studio ... Урок 2 ...
+
+## About
+
 2010-...
 
 Unfortunately heavily underdeveloped and carrying some wrong design decisions since the beginning, abandoned many times for years.
