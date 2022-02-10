@@ -20,6 +20,7 @@ https://twenkid.com/fx/get.html
 * **Manual:** 2 MB: 
 https://twenkid.com/fx/TwFXStudio-24-12-2021.pdf
 
+
 **System requirements:** Windows 7 x86, possibly Windows XP, but not tested, also Linux/Wine with proper codecs.
 
 Mixing with an external audio track, prepared separately (the output file could be also .avi etc.) for publishing on youtube etc.:
@@ -28,9 +29,11 @@ Mixing with an external audio track, prepared separately (the output file could 
 ffmpeg -i "C:\video.avi" -i C:\audio.mp3 -c:v copy -c:a copy -map 0:v:0 -map 1:a:0 C:\video_with_audio.mp4
 ```
 
-* **Tutorials** (Български звук, Bulgarian Audio)
+* **Video Tutorials** (Български звук, Bulgarian Audio)
  
-Youtube channel "Twenkid Studio - todporog"
+Youtube channel "Twenkid Studio - todprog"
+
+Find them there:
 
 Видеообработка Twenkid FX Studio ... Урок 1 - Рязане, Запис/Експорт, ...
 
