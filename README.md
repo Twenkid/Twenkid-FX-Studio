@@ -21,7 +21,7 @@ https://twenkid.com/fx/get.html
 https://twenkid.com/fx/TwFXStudio-24-12-2021.pdf
 
 
-**System requirements:** Windows 7 x86, possibly Windows XP, but not tested. In the past I've tried on Windows with Wine and it run, but I didn't have codecs installed. It may run with a proper Wine, because it's based on well established Direct3D9 and VFW libraries.
+**System requirements:** Windows 7 x86, possibly Windows XP, but not tested. In the past I've tried on Windows with Wine and it run, but I didn't have codecs installed. It may run with a proper Wine, because it's based on pure classic Win32 libraries and the well established Direct3D9 and VFW. May require some VS redistributables - last compiled with VS2017.
 
 Additional mixing with an external audio track, prepared separately (the output file could be also .avi etc.) for publishing on youtube etc.:
 
