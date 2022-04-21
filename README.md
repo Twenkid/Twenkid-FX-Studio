@@ -21,23 +21,41 @@ https://twenkid.com/fx/get.html
 https://twenkid.com/fx/TwFXStudio-24-12-2021.pdf
 
 
-**System requirements:** Windows 7 x86, possibly Windows XP, but not tested, also Linux/Wine with proper codecs.
+**System requirements:** Windows 7 x86, possibly Windows XP, but not tested. In the past I've tried on Windows with Wine and it run, but I didn't have codecs installed. It may run with a proper Wine, because it's based on well established Direct3D9 and VFW libraries.
 
-Mixing with an external audio track, prepared separately (the output file could be also .avi etc.) for publishing on youtube etc.:
+Additional mixing with an external audio track, prepared separately (the output file could be also .avi etc.) for publishing on youtube etc.:
 
 ```
 ffmpeg -i "C:\video.avi" -i C:\audio.mp3 -c:v copy -c:a copy -map 0:v:0 -map 1:a:0 C:\video_with_audio.mp4
 ```
 
-* **Video Tutorials** (Български звук, Bulgarian Audio)
+* **Video Tutorials and Presentation** 
  
-Youtube channel "Twenkid Studio - todprog"
+ https://www.youtube.com/watch?v=eUtk5Xxb89A
+ 
+* Free Video Editor and Visual Effects Software Introduction - Twenkid FX Studio Alpha - Part 1
+Nov 9, 2021
 
-Find them there:
+Free NLE Video Editor and Visual Effects project and prototype. Part 1 of many. This software had to be first published back in 2010 as it had a working functional prototype and cool video demos, but it remained as an in-house tool and wasn't developed as much it was supposed to. Now it may revive.
 
-Видеообработка Twenkid FX Studio ... Урок 1 - Рязане, Запис/Експорт, ...
+In Bulgarian:
 
-Видео монтаж ... Картина в картината, Crop, Twenkid FX Studio ... Урок 2 ...
+* https://www.youtube.com/watch?v=pWQKyJsv7Ss
+
+Безплатна програма за видеообработка и ефекти - българският видео редактор Twenkid FX Studio Alpha
+Dec 30, 2021
+
+Най-общо представяне на програмата Twenkid FX Studio Alpha 0.1 - издание от декември 2021 г. Следват продължения с подробно ръководство за употреба, уроци и пр.  Засега: инфо, ръководство (на английски) и изтегляне на програмата: http://twenkid.com/fx
+
+
+* Урок 1: Видеообработка с Twenkid FX Studio Alpha 0.1 - Инсталиране, Конфигуриране, Рязане, Експорт
+Premiered Dec 31, 2021
+
+https://www.youtube.com/watch?v=Vavrzjq_Abw
+
+Изтеглете програмата от http://twenkid.com/fx
+Безплатното българско приложение за видео монтаж и визуални ефекти (прототип): Twenkid FX Studio. Вижте по-общо представяне в предишни клипове и по-стари демота. В тази поредица от уроци ("туториали", tutorials) ще покажа как се работи с програмата: инсталиране, конфигуриране/конфигурация, рязане/Cut/Trimming, експортиране: Export, Rendering ("рендериране"), запис на видеото.
+
 
 ## About
 
