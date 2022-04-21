@@ -2,11 +2,13 @@
 
 ![image](/Releases/TwenkidFX-Alpha-10-2021-Win32/fx.png)
 
+![image](https://user-images.githubusercontent.com/23367640/164568741-bfa84531-4360-4e8d-b781-22d4e90d4c2b.png)
+
 ## Video Editing and Visual Effects 
 
 &copy; Todor Arnaudov - Tosh/Twenkid
 
-## Freeware Version
+## Freeware
 
 First Release! ... 29.12.2021
 
@@ -50,6 +52,9 @@ Dec 30, 2021
 
 * Урок 1: Видеообработка с Twenkid FX Studio Alpha 0.1 - Инсталиране, Конфигуриране, Рязане, Експорт
 Premiered Dec 31, 2021
+
+![image](https://user-images.githubusercontent.com/23367640/164568958-18bdfc4e-2d5e-482a-88b4-1c9a4f4556fa.png)
+
 
 https://www.youtube.com/watch?v=Vavrzjq_Abw
 
